@@ -37,52 +37,52 @@ body {
 
 .textbox {
 	position: absolute;
-	font-size: 12px;
+	font-size: 10px;
 	text-align: center;
-	padding: 5px;
 	cursor: pointer;
+	line-break: anywhere;
 }
 
 	#backing {
 		top: 24px;
   		left: 301px;
-		width: 99px;
-		height: 61px;
+		width: 109px;
+		height: 71px;
 	}
 
 	#warrant {
 		top: 142px;
 		left: 301px;
-		width: 99px;
-		height: 42px;
+		width: 112px;
+		height: 55px;
 	}
 
 	#grounds {
 		top: 272px;
 		left: 51px;
-		width: 102px;
-		height: 43px;
+		width: 112px;
+		height: 53px;
 	}
 
 	#qualifier {
 		top: 272px;
 		left: 270px;
-		width: 102px;
-		height: 20px;
+		width: 112px;
+		height: 30px;
 	}
 
 	#claim {
 		top: 271px;
 		left: 446px;
-		width: 102px;
-		height: 44px;
+		width: 112px;
+		height: 54px;
 	}
 
 	#rebuttal {
 		top: 428px;
 		left: 452px;
-		width: 102px;
-		height: 44px;
+		width: 112px;
+		height: 54px;
 	}
 
 button {
