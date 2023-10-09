@@ -1,0 +1,93 @@
+body {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #0f0f0f;
+}
+
+h1, p {
+	color: #f1f1f1;
+}
+
+#container {
+	position: relative;
+	width: 600px;
+	margin: 50px auto;
+
+	max-width: 90%;
+}
+
+#backgroundImage {
+	max-width: 100%;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.textbox {
+	position: absolute;
+	font-size: 12px;
+	text-align: center;
+	padding: 5px;
+	cursor: pointer;
+}
+
+	#backing {
+		top: 24px;
+  		left: 301px;
+		width: 99px;
+		height: 61px;
+	}
+
+	#warrant {
+		top: 142px;
+		left: 301px;
+		width: 99px;
+		height: 42px;
+	}
+
+	#grounds {
+		top: 272px;
+		left: 51px;
+		width: 102px;
+		height: 43px;
+	}
+
+	#qualifier {
+		top: 272px;
+		left: 270px;
+		width: 102px;
+		height: 20px;
+	}
+
+	#claim {
+		top: 271px;
+		left: 446px;
+		width: 102px;
+		height: 44px;
+	}
+
+	#rebuttal {
+		top: 428px;
+		left: 452px;
+		width: 102px;
+		height: 44px;
+	}
+
+button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+	button:hover {
+		background-color: #0069d9;
+	}
+
+	button:active {
+		background-color: #0056b3;
+	}

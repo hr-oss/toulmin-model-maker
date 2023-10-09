@@ -1,0 +1,39 @@
+<!-- TODO: IMAGE DOWNLOADING. PERHAPS NEEDS TO BE RUN ON SERVER? -->
+<!-- TODO: FONT -->
+<!-- TODO: FAVICON -->
+<!-- TODO: MOBILE TEXTBOX SCALING -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Text Over Image</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/style.css">
+
+	<!-- JS -->
+	<script src="assets/html2canvas.js"></script>
+	<script src="assets/main.js"></script>
+</head>
+<body>
+	<h1>Toulmin Model Maker</h1>
+	<p>Here is a useful tool to help you create your toulmin models! Simply click on the boxes and enter in the values, and take a screenshot of the result!</p>
+
+	<div id="container">
+		<div id="toulmin-model">
+			<img id="backgroundImage" src="assets/toulmin-model.webp" alt="Cat Image">
+
+			<!-- Textboxes -->
+			<div class="textbox" id="backing" contenteditable="true">Backing goes here</div>
+			<div class="textbox" id="warrant" contenteditable="true">Warrant goes here</div>
+			<div class="textbox" id="grounds" contenteditable="true">Grounds goes here</div>
+			<div class="textbox" id="qualifier" contenteditable="true">Qualifier goes here</div>
+			<div class="textbox" id="claim" contenteditable="true">Claim goes here</div>
+			<div class="textbox" id="rebuttal" contenteditable="true">Rebuttal goes here</div>
+		</div>
+
+		<button type="button" id="generateImage">Download .png</button>
+	</div>
+</body>
+</html>
