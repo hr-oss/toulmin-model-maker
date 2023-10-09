@@ -1,6 +1,0 @@
-This favicon was generated using the following font:
-
-- Font Title: Noto Serif Khitan Small Script
-- Font Author: Copyright 2022 Google LLC. All Rights Reserved.
-- Font Source: http://fonts.gstatic.com/s/notoserifkhitansmallscript/v4/jizzRFVKsm4Bt9PrbSzC4KLlQUF5lRJg5j-l5PvyhfTdd4TsZ8lb39iddA.ttf
-- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
